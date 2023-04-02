@@ -1,3 +1,6 @@
+python3 data/create_tfrecords.py --input_dir ./output/path --name abcd.txt  --output_dir /tmp/ --write_dataset_config --processes 1
+
+python3 main.py --model ./configs/custom.json --steps_per_checkpoint 500
 # GPT Neo
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5297715.svg)](https://doi.org/10.5281/zenodo.5297715) [![arXiv](https://img.shields.io/badge/arXiv-2101.00027-f9f107.svg)](https://arxiv.org/abs/2101.00027)
